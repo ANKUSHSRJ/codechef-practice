@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int t;
+cin>>t;
+for (int i=0; i<=t; i++){
+
+int x,y;
+cin>>x>>y;
+
+if (x<y)
+cout<<x << " I'll go with first"<<endl;
+ else if (x==y)
+ cout<< " I'll go with any one"<<endl;
+ else
+ cout<<y << " I'll go with second"<<endl;
+}
+
+	return 0;
+}
